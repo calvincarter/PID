@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+                 <TextView
+        android:id="@+id/tv_display_mycurrentlongLat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Latitude and Longitude"
+         />
+                 <TextView
+        android:id="@+id/txtLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+                 
+                              <TextView
+        android:id="@+id/txtLon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    
+    <Button
+        android:id="@+id/bt_startwp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Wave Point" />
+
+    <TextView
+        android:id="@+id/tv_startwp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+    
+    <Button
+        android:id="@+id/bt_endwp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="End Wave Point" />
+    
+    <TextView
+        android:id="@+id/tv_endwp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+    
+
+    <Button
+        android:id="@+id/bt_myLocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start PID" />
+
+        <TextView
+        android:id="@+id/tv_display_distance_from_end_wp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Distance From End WavePoint"
+         />
+    
+        <TextView
+        android:id="@+id/tv_distance_from_end_wp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+    
+    <TextView
+        android:id="@+id/tv_display_desiredCourse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Desired Course"
+         />
+    
+        <TextView
+        android:id="@+id/tv_desiredCourse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+        
+    <TextView
+        android:id="@+id/tv_display_currentCourse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Course"
+         />
+        
+        
+            <TextView
+        android:id="@+id/tv_currentCourse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+            
+            
+       <TextView
+        android:id="@+id/tv_display_error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cross Track Error"
+         />     
+            
+             <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+             
+                    <TextView
+        android:id="@+id/tv_display_pidHeading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PID Heading"
+         />   
+             
+             <TextView
+        android:id="@+id/tv_pidHeading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+
+             
+             <Button
+        android:id="@+id/bt_stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Manual Stop" />
+
+
+</LinearLayout>
